@@ -1,0 +1,18 @@
+filename: "Derosa_2024_immunotherapy_microbiota.pdf"
+#foldername: "."
+#base_dir: "../literature"
+
+pdf_loader: pymupdf # pymudf or unstructured. TODO implement
+
+extract_tables: False # unstructured or None
+extract_figures: True
+extract_text: True
+pdf_to_image: True
+
+chunk_size: 700
+chunk_overlap: 200
+separators:
+  - " "
+  - ","
+  - "\n"
+  - "\n\n"
